@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEF878F4167F9D8400436DCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF878F3167F9D8400436DCC /* UIKit.framework */; };
+		BEF878F6167F9D8400436DCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF878F5167F9D8400436DCC /* Foundation.framework */; };
+		BEF878F8167F9D8400436DCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF878F7167F9D8400436DCC /* CoreGraphics.framework */; };
+		BEF878FE167F9D8400436DCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEF878FC167F9D8400436DCC /* InfoPlist.strings */; };
+		BEF87900167F9D8400436DCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF878FF167F9D8400436DCC /* main.m */; };
+		BEF87904167F9D8400436DCC /* VPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF87903167F9D8400436DCC /* VPAppDelegate.m */; };
+		BEF87906167F9D8400436DCC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF87905167F9D8400436DCC /* Default.png */; };
+		BEF87908167F9D8400436DCC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF87907167F9D8400436DCC /* Default@2x.png */; };
+		BEF8790A167F9D8400436DCC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF87909167F9D8400436DCC /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEF878EF167F9D8400436DCC /* fastbook.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fastbook.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF878F3167F9D8400436DCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BEF878F5167F9D8400436DCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEF878F7167F9D8400436DCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BEF878FB167F9D8400436DCC /* fastbook.temp_caseinsensitive_rename-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fastbook.temp_caseinsensitive_rename-Info.plist"; sourceTree = "<group>"; };
+		BEF878FD167F9D8400436DCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEF878FF167F9D8400436DCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEF87901167F9D8400436DCC /* fastbook.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fastbook.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
+		BEF87902167F9D8400436DCC /* VPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPAppDelegate.h; sourceTree = "<group>"; };
+		BEF87903167F9D8400436DCC /* VPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPAppDelegate.m; sourceTree = "<group>"; };
+		BEF87905167F9D8400436DCC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BEF87907167F9D8400436DCC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BEF87909167F9D8400436DCC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF878EC167F9D8400436DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF878F4167F9D8400436DCC /* UIKit.framework in Frameworks */,
+				BEF878F6167F9D8400436DCC /* Foundation.framework in Frameworks */,
+				BEF878F8167F9D8400436DCC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF878E4167F9D8400436DCC = {
+			isa = PBXGroup;
+			children = (
+				BEF878F9167F9D8400436DCC /* FastBook */,
+				BEF878F2167F9D8400436DCC /* Frameworks */,
+				BEF878F0167F9D8400436DCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF878F0167F9D8400436DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF878EF167F9D8400436DCC /* fastbook.temp_caseinsensitive_rename.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF878F2167F9D8400436DCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEF878F3167F9D8400436DCC /* UIKit.framework */,
+				BEF878F5167F9D8400436DCC /* Foundation.framework */,
+				BEF878F7167F9D8400436DCC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEF878F9167F9D8400436DCC /* FastBook */ = {
+			isa = PBXGroup;
+			children = (
+				BEF87902167F9D8400436DCC /* VPAppDelegate.h */,
+				BEF87903167F9D8400436DCC /* VPAppDelegate.m */,
+				BEF878FA167F9D8400436DCC /* Supporting Files */,
+			);
+			path = FastBook;
+			sourceTree = "<group>";
+		};
+		BEF878FA167F9D8400436DCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEF878FB167F9D8400436DCC /* fastbook.temp_caseinsensitive_rename-Info.plist */,
+				BEF878FC167F9D8400436DCC /* InfoPlist.strings */,
+				BEF878FF167F9D8400436DCC /* main.m */,
+				BEF87901167F9D8400436DCC /* fastbook.temp_caseinsensitive_rename-Prefix.pch */,
+				BEF87905167F9D8400436DCC /* Default.png */,
+				BEF87907167F9D8400436DCC /* Default@2x.png */,
+				BEF87909167F9D8400436DCC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF878EE167F9D8400436DCC /* fastbook.temp_caseinsensitive_rename */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF8790D167F9D8400436DCC /* Build configuration list for PBXNativeTarget "fastbook.temp_caseinsensitive_rename" */;
+			buildPhases = (
+				BEF878EB167F9D8400436DCC /* Sources */,
+				BEF878EC167F9D8400436DCC /* Frameworks */,
+				BEF878ED167F9D8400436DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fastbook.temp_caseinsensitive_rename;
+			productName = FastBook;
+			productReference = BEF878EF167F9D8400436DCC /* fastbook.temp_caseinsensitive_rename.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF878E6167F9D8400436DCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Alexander Voloshyn";
+			};
+			buildConfigurationList = BEF878E9167F9D8400436DCC /* Build configuration list for PBXProject "fastbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEF878E4167F9D8400436DCC;
+			productRefGroup = BEF878F0167F9D8400436DCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF878EE167F9D8400436DCC /* fastbook.temp_caseinsensitive_rename */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF878ED167F9D8400436DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF878FE167F9D8400436DCC /* InfoPlist.strings in Resources */,
+				BEF87906167F9D8400436DCC /* Default.png in Resources */,
+				BEF87908167F9D8400436DCC /* Default@2x.png in Resources */,
+				BEF8790A167F9D8400436DCC /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF878EB167F9D8400436DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF87900167F9D8400436DCC /* main.m in Sources */,
+				BEF87904167F9D8400436DCC /* VPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEF878FC167F9D8400436DCC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF878FD167F9D8400436DCC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEF8790B167F9D8400436DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEF8790C167F9D8400436DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF8790E167F9D8400436DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FastBook/fastbook.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "FastBook/fastbook.temp_caseinsensitive_rename-Info.plist";
+				PRODUCT_NAME = fastbook.temp_caseinsensitive_rename;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEF8790F167F9D8400436DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FastBook/fastbook.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "FastBook/fastbook.temp_caseinsensitive_rename-Info.plist";
+				PRODUCT_NAME = fastbook.temp_caseinsensitive_rename;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF878E9167F9D8400436DCC /* Build configuration list for PBXProject "fastbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF8790B167F9D8400436DCC /* Debug */,
+				BEF8790C167F9D8400436DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF8790D167F9D8400436DCC /* Build configuration list for PBXNativeTarget "fastbook.temp_caseinsensitive_rename" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF8790E167F9D8400436DCC /* Debug */,
+				BEF8790F167F9D8400436DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF878E6167F9D8400436DCC /* Project object */;
+}
